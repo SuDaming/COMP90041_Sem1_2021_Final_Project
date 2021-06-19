@@ -9,12 +9,16 @@ import java.util.ArrayList;
 import java.util.Arrays;
 
 public abstract class Competition {
-    private String name; //competition name
-    private int id; //competition identifier
+    protected String name; //competition name
+    protected int id; //competition identifier
 
     public abstract void addEntries();
 
     public abstract void drawWinners();
+
+	public abstract boolean getIsTestingMode();
+
+	public abstract int getId();//competition identifier
 
     public void report() {
     }
