@@ -14,7 +14,7 @@ public class RandomPickCompetition extends Competition {
     private final int[] prizes = {FIRST_PRIZE, SECOND_PRIZE, THIRD_PRIZE};
 	
     private final int MAX_WINNING_ENTRIES = 3;
-	private ArrayList<Entry> entries = new ArrayList<Entry>();
+    private ArrayList<Entry> entries = new ArrayList<Entry>();
 	
     public void drawWinners() {
         Random randomGenerator = null;
@@ -49,15 +49,14 @@ public class RandomPickCompetition extends Competition {
     }
 
 
-	public void addEntries(){	
-	}
+	public void addEntries(){
+    }
 
-	public boolean getIsTestingMode(){
-			return false;	
+    public boolean getIsTestingMode(){
+        return false;
 	}
 
 	public int getId(){
-		return id;
-	}
-	
+	    return id;
+    }
 }

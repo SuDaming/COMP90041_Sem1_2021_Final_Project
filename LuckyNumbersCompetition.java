@@ -5,22 +5,19 @@
  */
 
 public class LuckyNumbersCompetition extends Competition {
-	
-	public void addEntries(){
-	
-	}
 
-	public void drawWinners() {
-	
-	}
+    public void addEntries(){
+    }
 
-	
+    public void drawWinners() {
 
-	public boolean getIsTestingMode(){
-		return false;	
-	}
+    }
 
-	public int getId(){
-		return id;
-	}
+    public boolean getIsTestingMode(){
+        return false;
+    }
+
+    public int getId(){
+        return id;
+    }
 }

@@ -16,9 +16,9 @@ public abstract class Competition {
 
     public abstract void drawWinners();
 
-	public abstract boolean getIsTestingMode();
+    public abstract boolean getIsTestingMode();
 
-	public abstract int getId();//competition identifier
+    public abstract int getId();//competition identifier
 
     public void report() {
     }

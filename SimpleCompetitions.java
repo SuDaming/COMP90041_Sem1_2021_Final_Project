@@ -7,11 +7,10 @@
 import java.util.Scanner;
 
 public class SimpleCompetitions {
-	/**
-	*Called when the customer select "1. Create a new competition" 
-	*/
+    /**
+    *Called when the customer select "1. Create a new competition"
+    */
     public Competition addNewCompetition(Competition competition) {
-    
     	return competition;    
     }
 
