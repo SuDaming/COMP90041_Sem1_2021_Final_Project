@@ -7,8 +7,12 @@
 import java.util.Scanner;
 
 public class SimpleCompetitions {
-    public Competition addNewCompetition() {
-        
+	/**
+	*Called when the customer select "1. Create a new competition" 
+	*/
+    public Competition addNewCompetition(Competition competition) {
+    
+    	return competition;    
     }
 
     public void report() {

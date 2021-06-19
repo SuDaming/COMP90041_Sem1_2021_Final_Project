@@ -4,6 +4,9 @@
  * LMS username: ZZZ
  */
 
+import java.util.Random;
+import java.util.ArrayList;
+
 public class RandomPickCompetition extends Competition {
     private final int FIRST_PRIZE = 50000;
     private final int SECOND_PRIZE = 5000;
@@ -11,6 +14,7 @@ public class RandomPickCompetition extends Competition {
     private final int[] prizes = {FIRST_PRIZE, SECOND_PRIZE, THIRD_PRIZE};
 	
     private final int MAX_WINNING_ENTRIES = 3;
+	private ArrayList<Entry> entries = new ArrayList<Entry>();
 	
     public void drawWinners() {
         Random randomGenerator = null;
@@ -43,4 +47,17 @@ public class RandomPickCompetition extends Competition {
          * to complete the logic.
          */
     }
+
+
+	public void addEntries(){	
+	}
+
+	public boolean getIsTestingMode(){
+			return false;	
+	}
+
+	public int getId(){
+		return id;
+	}
+	
 }
